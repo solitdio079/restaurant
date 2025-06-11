@@ -13,19 +13,19 @@ homeBtn.classList.add("btn-active")
 //menuPage()
 //contactPage()
 
-menuBtn.addEventListener("click", (e) => {
-    allBtn.forEach(btn => btn.classList.remove("btn-active"))
+menuBtn.addEventListener("click", () => {
+    allBtn.forEach((btn) => btn.classList.remove("btn-active"))
     menuBtn.classList.add("btn-active")
     menuPage()
 })
-homeBtn.addEventListener("click", (e) => {
-    allBtn.forEach(btn => btn.classList.remove("btn-active"))
+homeBtn.addEventListener("click", () => {
+    allBtn.forEach((btn) => btn.classList.remove("btn-active"))
     homeBtn.classList.add("btn-active")
     homePage()
 })
 
-contactBtn.addEventListener("click", (e) => {
-    allBtn.forEach(btn => btn.classList.remove("btn-active"))
+contactBtn.addEventListener("click", () => {
+    allBtn.forEach((btn) => btn.classList.remove("btn-active"))
     contactBtn.classList.add("btn-active")
     contactPage()
 })

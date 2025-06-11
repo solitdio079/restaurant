@@ -1,5 +1,5 @@
-function homePage(){
-    const contentEl =  document.querySelector(".content")
+function homePage() {
+    const contentEl = document.querySelector(".content")
     const containerEl = document.createElement("div")
     const textContentEl = document.createElement("div")
     contentEl.innerHTML = ""
@@ -14,7 +14,8 @@ function homePage(){
     h1El.textContent = "Restaurant"
 
     const pEl = document.createElement("p")
-    pEl.textContent = "Where you can taste every kind of cuisine, we specialize in turkish cuisine."
+    pEl.textContent =
+        "Where you can taste every kind of cuisine, we specialize in turkish cuisine."
 
     const buttonEl = document.createElement("button")
     buttonEl.textContent = "See the Menu"

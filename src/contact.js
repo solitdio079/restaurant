@@ -1,12 +1,13 @@
-function contactPage(){
-    const contentEl =  document.querySelector(".content")
+function contactPage() {
+    const contentEl = document.querySelector(".content")
     contentEl.innerHTML = ""
 
     const contactEl = document.createElement("div")
-    contactEl.classList.add("contact") 
+    contactEl.classList.add("contact")
 
     const addressPEl = document.createElement("p")
-    addressPEl.textContent = "Address: Kuzeykent mah, mutlu sokak, No14, Daire 175"
+    addressPEl.textContent =
+        "Address: Kuzeykent mah, mutlu sokak, No14, Daire 175"
 
     const emailPEl = document.createElement("p")
     emailPEl.textContent = "Email: info@turkishdelight.com"
@@ -19,6 +20,5 @@ function contactPage(){
     contactEl.appendChild(emailPEl)
 
     contentEl.appendChild(contactEl)
-
 }
 export default contactPage
